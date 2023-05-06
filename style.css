@@ -5,10 +5,14 @@
 
 ::-webkit-scrollbar{
     width: 12px;
+    cursor: pointer;
+
 }
 ::-webkit-scrollbar-thumb{
     background: #fff;
     border-radius: 6px;
+    cursor: pointer;
+
 }
 
 body{
@@ -100,6 +104,8 @@ main li{
 
 .infoIg{
     margin-bottom: 50px;
+    overflow-x: hidden;
+    
 }
 
 .infoIg__Bio{
@@ -126,14 +132,49 @@ footer h3{
 }
 
 .cardContainer{
+    margin: 50px 0px 10px 0px;
     border: #fff;
     border-style: solid;
     border-width: 15px 0.1px 0.1px 0.1px;
-    height: 40vh;
-    width: 80vh;
+    height: 50vh;
+    width: 90vh;
+}
+
+.cardContainer2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.closeIcon{
+    padding-right: 20px;
+    font-size: 20px;
+    text-shadow: none;
+    cursor: pointer;
+}
+.closeIcon:hover{
+    background-color: #fff;
+    color:black;
 }
 
 .cardContainer__img{
-    width: 80%;
-    height: 40%;
+    
+    width: 610px;
+    height: 270px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.carouselSize{
+    width: 700px;
+    height: 350px;
+}
+
+.captions{
+    margin-top: 50px;
+    text-shadow: 1px 0px;
+}
+
+.carousel{
+    overflow: hidden;
 }
